@@ -9,10 +9,10 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Add login logic (e.g., API call to check credentials)
-    if (email === 'student@example.com' && password === 'password') {
+    if (email === 'student@example.com' && password === '123') {
       // Redirect to student dashboard after successful login
       navigate('/student-dashboard');
-    } else if (email === 'teacher@example.com' && password === 'password') {
+    } else if (email === 'teacher@example.com' && password === '123') {
       // Redirect to teacher dashboard after successful login
       navigate('/teacher-dashboard');
     } else {
